@@ -1,0 +1,5 @@
+UF2 Bootloader 0.6.4-20-gdf1fddf lib/nrfx (v2.0.0) lib/tinyusb (0.12.0-145-g9775e769) lib/uf2 (remotes/origin/configupdate-9-gadbb8c7)
+Model: Raytac MDBT50Q-RX Green
+Board-ID: nRF52833-MDBT50Q_RX-green
+Date: Aug 26 2022
+SoftDevice: not found

@@ -4,14 +4,14 @@ Be extremely careful when detaching the battery (though generally you will not n
 ## Keyboard Buttons
 Each keyboard half has two special buttons. If you look at the USB C port with the keyboard keys facing up:
 
-The reset button is on the right of the USB port.
+The **reset button** is on the right of the USB port.
 Pressing the button once will reset/reboot the keyboard half.
 The keyboard LED will activate briefly after the reboot.
 Pressing the button twice within 500ms will put the keyboard half into bootloader mode.
 If the LED is RGB, it will be solid green while in bootloader mode.
 If the LED is not RGB, it will be red and pulse slowly in bootloader mode.
 If you want a mnemonic for remembering which button is which, "right" and "reset" both start with "r" and are 5 letters.
-The user button is on the left of the USB port.
+The **user button** is on the left of the USB port.
 The user button is primarily for turning the keyboard half off.
 After turning a keyboard half off, pressing keyboard keys will have no effect and consume no battery. It is a good idea to take advantage of this feature when traveling with your keyboard.
 Pressing the "off" button on a peripheral half will light the LED for one second as the keyboard turns off.
