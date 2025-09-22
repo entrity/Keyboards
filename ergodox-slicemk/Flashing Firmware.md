@@ -28,9 +28,8 @@ After building firmware on https://config.slicemk.com/zmk/build/53IfPGaW-hXQich_
 
 ## 3. Place the dongle in bootloader mode. The user LED should pulse slowly while in bootloader mode.
 
-1. Turn on both keyboard halves. (Press the reset button once (right).)
-2. Press the button on the dongle once to enter bootloader mode. That should give you a device at `/media/$USER/MDBT50QBOOT` (or whatever matches your dongle).
-3.
+1. Turn on both keyboard halves. (i.e. Press the reset button once (right).)
+2. Press the button on the dongle once to enter bootloader mode. (The dongle's LED will pulse very slowly.) That should give you a device at `/media/$USER/MDBT50QBOOT` (or whatever matches your dongle).
 
 > To update the firmware running on a dongle or keyboard half, it should be connected via USB and put into bootloader mode. All dongles/keyboards are shipped with an UF2 bootloader. While in bootloader mode, you will see a virtual flash drive on your computer.
 

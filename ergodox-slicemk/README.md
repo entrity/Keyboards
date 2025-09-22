@@ -2,6 +2,16 @@ I bought this ergodox low-profile keyboard from slicemk.com.
 
 https://docs.slicemk.com/firmware/zmk/wireless/guide/
 
+# Building very custom firmware
+
+1. Build a keymap using https://config.slicemk.com
+2. Edit the keymap file as you like.
+3. Use https://github.com/entrity/ergodox-zmk-config to build firmware from the edited keymap
+4. Download the built firmware from the action workflow run, e.g.
+https://github.com/entrity/ergodox-zmk-config/actions/runs/17504432156
+5. Unzip the downloaded `firmware.zip` to get `slicemk_ergodox_dongle-raytac_mdbt50q_rx_green-zmk.uf2`
+6. Follow the instructions in `Flashing Firmware.md` but use this uf2 file.
+
 
 # Keymap config
 
